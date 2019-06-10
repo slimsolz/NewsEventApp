@@ -1,9 +1,9 @@
 <?php
-    require_once '../../includes/config.php';
-    require_once '../../includes/functions.php';
-    require_once '../../includes/database.php';
-    require_once '../../includes/admin.php';
-    require_once '../../includes/session.php';
+	require_once '../../includes/config.php';
+	require_once '../../includes/functions.php';
+	require_once '../../includes/database.php';
+	require_once '../../includes/admin.php';
+	require_once '../../includes/session.php';
 ?>
 
 <?php
@@ -72,26 +72,8 @@
 						Password
 					</span>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
-						<span class="btn-show-pass">
-							<i class="fa fa-eye"></i>
-						</span>
 						<input class="input100" type="password" name="password" >
 						<span class="focus-input100"></span>
-					</div>
-
-					<div class="flex-sb-m w-full p-b-48">
-						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-							<label class="label-checkbox100" for="ckb1">
-								Remember me
-							</label>
-						</div>
-
-						<div>
-							<a href="#" class="txt3">
-								Forgot Password?
-							</a>
-						</div>
 					</div>
 
 					<div class="container-login100-form-btn">

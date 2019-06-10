@@ -60,8 +60,6 @@
                                 <li><a href="news.php">News</a></li>
                                 <li><a href="events.php">Events</a></li>
                                 <li><a href="menu.php">Menu</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">About Us</a></li>
                                 <li><a href="./admin/">Login</a></li>
                               </ul>
                             </div>

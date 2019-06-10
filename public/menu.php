@@ -28,11 +28,10 @@
                 <div class="row">
                   <?php
                     for ($i=0; $i < 3; $i++) {
-                      $imageNumber = rand(1, 10);
                       echo '<div class="col-12 col-sm-4">';
                       echo '<div class="single-blog-post style-2 mb-5">';
                       echo '<div class="blog-thumbnail">';
-                      echo '<a href="#"><img src="../public/assets/img/meals/'. $imageNumber .'.jpg" alt=""></a>';
+                      echo '<a href="#"><img src="../public/assets/img/meals/'.($i + 1).'.jpg" alt=""></a>';
                       echo '</div>';
                       echo '<div class="blog-content">';
                       echo '<a href="#" class="post-title">'. $menuResult[$i]->title .'</a>';
