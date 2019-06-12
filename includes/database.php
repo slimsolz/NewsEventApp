@@ -57,17 +57,14 @@ class MySQLDatabase {
 		return mysqli_fetch_array($result);
 	}
 
-	//returns number of rows
 	public function numRows($result) {
 		return mysqli_num_rows($result);
 	}
 
-	//return the last id inserted
 	public function insertId() {
 		return mysqli_insert_id($this->connection);
 	}
 
-	//returns number of affected rows
 	public function affectedRows() {
 		return mysqli_affected_rows($this->connection);
 	}

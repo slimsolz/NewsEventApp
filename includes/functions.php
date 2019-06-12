@@ -1,9 +1,7 @@
 <?php
 
 function stripZeroFromDate($string=''){
-	//first remove the marked zeros
 	$noZeros = str_replace('*0', '', $string);
-	//then remove any remaining marks
 	$cleanString = str_replace('*', '', $noZeros);
 	return $cleanString;
 }

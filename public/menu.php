@@ -7,18 +7,11 @@
 ?>
 
 <?php require_once '../includes/layouts/header.php' ?>
-  <!-- ##### Hero Area Start ##### -->
-
-
-  <!-- ##### Intro News Area Start ##### -->
   <section class="intro-news-area section-padding-100-0 mb-70">
     <div class="container">
       <div class="row justify-content-center">
-        <!-- Intro News Tabs Area -->
         <div class="col-12 col-lg-12">
           <div class="intro-news-tab">
-
-            <!-- Intro News Filter -->
             <div class="intro-news-filter d-flex justify-content-between">
               <h6>Menu</h6>
             </div>
@@ -51,6 +44,4 @@
       </div>
     </div>
   </section>
-  <!-- ##### Intro News Area End ##### -->
-
 <?php include_once '../includes/layouts/footer.php' ?>

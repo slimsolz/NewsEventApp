@@ -22,6 +22,13 @@ class Admin {
 		return !empty($resultArray) ? array_shift($resultArray) : false ;
 	}
 
+	public static function findByEmail($email='') {
+		global $database;
+		$sql = "SELECT * FROM ". self::$tablename ." WHERE email = '{$email}' LIMIT 1 ";
+		$resultArray = self::findBySql($sql);
+		return !empty($resultArray) ? array_shift($resultArray) : false ;
+	}
+
  	public static function findBySql($sql='') {
 		global $database;
 		$result = $database->query($sql);

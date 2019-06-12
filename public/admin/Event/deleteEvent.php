@@ -5,7 +5,7 @@
   require_once '../../../includes/event.php';
   require_once '../../../includes/session.php';
 
-/*check if user is already logged in*/
+
   $message = "";
 
 	if (!$session->isLoggedIn()) {
@@ -33,9 +33,9 @@
 
 <?php require_once './layouts/header.php'; ?>
 <div class="main-panel">
-  <!-- Navbar -->
+
   <?php require_once './layouts/navbar.php';?>
-  <!-- End Navbar -->
+
   <div class="content">
     <div class="row">
       <div class="col-md-12">

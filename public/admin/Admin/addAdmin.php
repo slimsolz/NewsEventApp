@@ -6,7 +6,6 @@
   require_once '../../../includes/session.php';
   require_once './layouts/header.php';
 
-  /*check if user is already logged in*/
 	$message = "";
 	if (!$session->isLoggedIn()) {
 		redirectTo("../index.php");
@@ -41,7 +40,7 @@
 ?>
 
 <div class="main-panel">
-<!-- Navbar -->
+
 <?php require_once './layouts/navbar.php';?>
 
 <div class="content">

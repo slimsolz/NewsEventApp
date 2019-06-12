@@ -11,10 +11,10 @@
     News-Event Management System
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-  <!-- CSS Files -->
+
   <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="../../assets/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
 </head>
@@ -22,9 +22,7 @@
 <body class="">
   <div class="wrapper ">
     <div class="sidebar" data-color="blue" data-active-color="danger">
-      <!--
-        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
-    -->
+
       <div class="logo">
         <a href="#" class="simple-text logo-mini">
           <div class="logo-image-small">
